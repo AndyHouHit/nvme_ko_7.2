@@ -1,5 +1,5 @@
 obj-m := nvme.o
-nvme-objs :=  nvme-core.o
+nvme-objs :=  nvme-core.o nvme-scsi.o
 
 KERNELDIR ?= /lib/modules/$(shell uname -r)/build
 
